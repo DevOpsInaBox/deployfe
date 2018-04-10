@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="persona" value="Georgia"/>
+  <parameter name="OSVersion" value="9.3"/>
+  <parameter name="deviceModel" value="iPhone-6 Plus"/>
+  <parameter name="mobileOS" value="iOS"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="test.StockExchangeTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="selectSuitableDevices" invocation-numbers="1"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- test.StockExchangeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

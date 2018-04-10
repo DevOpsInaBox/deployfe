@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+		<parameter name="OSVersion" value="11.2" />
+	<parameter name="deviceModel" value="iPhone-6" />
+	<parameter name="mobileOS" value="iOS" />
+	<parameter name="persona" value="Georgia"/>
+		
+		  <test name="Place Order" group-by-instances="true">
+		    <classes>
+		      <class name="Driver.stockApp_Flow"/>
+		    </classes>
+		  </test>
+</suite>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Company's 52 week low price is  :3.77  and 52 week high price is : 19.20]]>
+    </line>
+    <line>
+      <![CDATA[Today’s price of <5.31> is 72.34375% lower than the 52 week high and 40.84880636604774% higher than the 52 week low.]]>
+    </line>
+    <line>
+      <![CDATA[EPS for company2 (WIPRO) is 36.12  which is higher than company1 (TCS) which is 0.11. ]]>
+    </line>
+    <line>
+      <![CDATA[Company's 52 week low price is  :15.30  and 52 week high price is : 20.47]]>
+    </line>
+    <line>
+      <![CDATA[Today’s price of <19.55> is 4.4943820224719015% lower than the 52 week high and 27.777777777777775% higher than the 52 week low.]]>
+    </line>
+    <line>
+      <![CDATA[Error occured on waiting for the element to appear  - org.openqa.selenium.TimeoutException: Timed out after 40 seconds waiting for visibility of element located by By.xpath: //div[contains(text(),'EPS')]/../../td[@class='value']/div
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'newt-1765', ip: '169.254.7.160', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{windTunnelPersona=Georgia, rotatable=true, eclipseExecutionId=demo@newtglobal.com_Eclipse_16-06-02_05_14_32_38693, entityType=remote_web_driver, serverConnector=, deviceName=A7302271E86090808BEB998BA2639AB18C5773A4, platform=ANY, executionId=demo@newtglobal.com_RemoteWebDriver_16-06-02_05_17_38_38702, password=, webdriver.remote.sessionid=b2cb9a83-e51b-4d6d-85d6-471cdb0c8044, platformVersion=9.3, automationName=appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-06-02_05_17_38_38702.xml&ownerId=demo@newtglobal.com&sharingCode=c35a7136-e753-4ffd-b7b0-1bbbe3f40eac, locationContextEnabled=true, scriptName=RemoteWebDriver, takesScreenshot=true, model=iPhone-6 Plus, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-06-02_05_17_38_38702.xml, platformName=iOS, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-06-02_05_17_38_38702.xml&ownerId=demo@newtglobal.com&sharingCode=c35a7136-e753-4ffd-b7b0-1bbbe3f40eac, user=, cssSelectorsEnabled=true}]
+Session ID: b2cb9a83-e51b-4d6d-85d6-471cdb0c8044]]>
+    </line>
+    <line>
+      <![CDATA[Company's 52 week low price is  :12.87  and 52 week high price is : 20.25]]>
+    </line>
+    <line>
+      <![CDATA[Today’s price of <18.22> is 10.024691358024697% lower than the 52 week high and 41.56954156954157% higher than the 52 week low.]]>
+    </line>
+    <line>
+      <![CDATA[EPS for company2 (GOOGL) is 24.58  which is higher than company1 (CTS) which is 0.26. ]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="459153" started-at="2016-06-02T05:14:59Z" finished-at="2016-06-02T05:22:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="459153" started-at="2016-06-02T05:14:59Z" finished-at="2016-06-02T05:22:38Z">
+      <class name="test.StockExchangeTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.StockExchangeTest@239963d8]" name="beforeTest" is-config="true" duration-ms="21256" started-at="2016-06-02T10:44:59Z" finished-at="2016-06-02T10:45:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iPhone-6 Plus]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Georgia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="selectSuitableDevices(java.lang.String, java.lang.String)[pri:0, instance:test.StockExchangeTest@239963d8]" name="selectSuitableDevices" duration-ms="86541" started-at="2016-06-02T10:45:20Z" data-provider="SelectDevice" finished-at="2016-06-02T10:46:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WIPRO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Company's 52 week low price is  :3.77  and 52 week high price is : 19.20]]>
+            </line>
+            <line>
+              <![CDATA[Today’s price of <5.31> is 72.34375% lower than the 52 week high and 40.84880636604774% higher than the 52 week low.]]>
+            </line>
+            <line>
+              <![CDATA[EPS for company2 (WIPRO) is 36.12  which is higher than company1 (TCS) which is 0.11. ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectSuitableDevices -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.StockExchangeTest@239963d8]" name="afterTest" is-config="true" duration-ms="43697" started-at="2016-06-02T10:46:47Z" finished-at="2016-06-02T10:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.StockExchangeTest@239963d8]" name="beforeTest" is-config="true" duration-ms="15128" started-at="2016-06-02T10:47:30Z" finished-at="2016-06-02T10:47:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iPhone-6 Plus]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Georgia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="selectSuitableDevices(java.lang.String, java.lang.String)[pri:0, instance:test.StockExchangeTest@239963d8]" name="selectSuitableDevices" duration-ms="119963" started-at="2016-06-02T10:47:46Z" data-provider="SelectDevice" finished-at="2016-06-02T10:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[INFY]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IBM]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Error occured on waiting for the element to appear  - org.openqa.selenium.TimeoutException: Timed out after 40 seconds waiting for visibility of element located by By.xpath: //div[contains(text(),'EPS')]/../../td[@class='value']/div
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'newt-1765', ip: '169.254.7.160', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{windTunnelPersona=Georgia, rotatable=true, eclipseExecutionId=demo@newtglobal.com_Eclipse_16-06-02_05_14_32_38693, entityType=remote_web_driver, serverConnector=, deviceName=A7302271E86090808BEB998BA2639AB18C5773A4, platform=ANY, executionId=demo@newtglobal.com_RemoteWebDriver_16-06-02_05_17_38_38702, password=, webdriver.remote.sessionid=b2cb9a83-e51b-4d6d-85d6-471cdb0c8044, platformVersion=9.3, automationName=appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-06-02_05_17_38_38702.xml&ownerId=demo@newtglobal.com&sharingCode=c35a7136-e753-4ffd-b7b0-1bbbe3f40eac, locationContextEnabled=true, scriptName=RemoteWebDriver, takesScreenshot=true, model=iPhone-6 Plus, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-06-02_05_17_38_38702.xml, platformName=iOS, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-06-02_05_17_38_38702.xml&ownerId=demo@newtglobal.com&sharingCode=c35a7136-e753-4ffd-b7b0-1bbbe3f40eac, user=, cssSelectorsEnabled=true}]
+Session ID: b2cb9a83-e51b-4d6d-85d6-471cdb0c8044]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Error occured on waiting for the element to appear  - org.openqa.selenium.TimeoutException: Timed out after 40 seconds waiting for visibility of element located by By.xpath: //div[contains(text(),'EPS')]/../../td[@class='value']/div
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'newt-1765', ip: '169.254.7.160', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{windTunnelPersona=Georgia, rotatable=true, eclipseExecutionId=demo@newtglobal.com_Eclipse_16-06-02_05_14_32_38693, entityType=remote_web_driver, serverConnector=, deviceName=A7302271E86090808BEB998BA2639AB18C5773A4, platform=ANY, executionId=demo@newtglobal.com_RemoteWebDriver_16-06-02_05_17_38_38702, password=, webdriver.remote.sessionid=b2cb9a83-e51b-4d6d-85d6-471cdb0c8044, platformVersion=9.3, automationName=appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-06-02_05_17_38_38702.xml&ownerId=demo@newtglobal.com&sharingCode=c35a7136-e753-4ffd-b7b0-1bbbe3f40eac, locationContextEnabled=true, scriptName=RemoteWebDriver, takesScreenshot=true, model=iPhone-6 Plus, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-06-02_05_17_38_38702.xml, platformName=iOS, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-06-02_05_17_38_38702.xml&ownerId=demo@newtglobal.com&sharingCode=c35a7136-e753-4ffd-b7b0-1bbbe3f40eac, user=, cssSelectorsEnabled=true}]
+Session ID: b2cb9a83-e51b-4d6d-85d6-471cdb0c8044
+	at utils.Utilities.waitForElement(Utilities.java:78)
+	at pageObjects.StockInfoDisplayPageObject.getEPSStockPrice(StockInfoDisplayPageObject.java:96)
+	at test.StockExchangeTest.selectSuitableDevices(StockExchangeTest.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+            <line>
+              <![CDATA[Company's 52 week low price is  :15.30  and 52 week high price is : 20.47]]>
+            </line>
+            <line>
+              <![CDATA[Today’s price of <19.55> is 4.4943820224719015% lower than the 52 week high and 27.777777777777775% higher than the 52 week low.]]>
+            </line>
+            <line>
+              <![CDATA[Error occured on waiting for the element to appear  - org.openqa.selenium.TimeoutException: Timed out after 40 seconds waiting for visibility of element located by By.xpath: //div[contains(text(),'EPS')]/../../td[@class='value']/div
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'newt-1765', ip: '169.254.7.160', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities [{windTunnelPersona=Georgia, rotatable=true, eclipseExecutionId=demo@newtglobal.com_Eclipse_16-06-02_05_14_32_38693, entityType=remote_web_driver, serverConnector=, deviceName=A7302271E86090808BEB998BA2639AB18C5773A4, platform=ANY, executionId=demo@newtglobal.com_RemoteWebDriver_16-06-02_05_17_38_38702, password=, webdriver.remote.sessionid=b2cb9a83-e51b-4d6d-85d6-471cdb0c8044, platformVersion=9.3, automationName=appium, host=partners.perfectomobile.com, singleTestReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-06-02_05_17_38_38702.xml&ownerId=demo@newtglobal.com&sharingCode=c35a7136-e753-4ffd-b7b0-1bbbe3f40eac, locationContextEnabled=true, scriptName=RemoteWebDriver, takesScreenshot=true, model=iPhone-6 Plus, javascriptEnabled=true, reportKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-06-02_05_17_38_38702.xml, platformName=iOS, windTunnelReportUrl=https://partners.perfectomobile.com/nexperience/singletest/report/?reportRepositoryKey=PRIVATE:RemoteWebDriver/RemoteWebDriver_16-06-02_05_17_38_38702.xml&ownerId=demo@newtglobal.com&sharingCode=c35a7136-e753-4ffd-b7b0-1bbbe3f40eac, user=, cssSelectorsEnabled=true}]
+Session ID: b2cb9a83-e51b-4d6d-85d6-471cdb0c8044]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectSuitableDevices -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.StockExchangeTest@239963d8]" name="afterTest" is-config="true" duration-ms="41235" started-at="2016-06-02T10:49:46Z" finished-at="2016-06-02T10:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.StockExchangeTest@239963d8]" name="beforeTest" is-config="true" duration-ms="15413" started-at="2016-06-02T10:50:27Z" finished-at="2016-06-02T10:50:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iPhone-6 Plus]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Georgia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="selectSuitableDevices(java.lang.String, java.lang.String)[pri:0, instance:test.StockExchangeTest@239963d8]" name="selectSuitableDevices" duration-ms="74884" started-at="2016-06-02T10:50:42Z" data-provider="SelectDevice" finished-at="2016-06-02T10:51:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CTS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GOOGL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Company's 52 week low price is  :12.87  and 52 week high price is : 20.25]]>
+            </line>
+            <line>
+              <![CDATA[Today’s price of <18.22> is 10.024691358024697% lower than the 52 week high and 41.56954156954157% higher than the 52 week low.]]>
+            </line>
+            <line>
+              <![CDATA[EPS for company2 (GOOGL) is 24.58  which is higher than company1 (CTS) which is 0.26. ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectSuitableDevices -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.StockExchangeTest@239963d8]" name="afterTest" is-config="true" duration-ms="40815" started-at="2016-06-02T10:51:57Z" finished-at="2016-06-02T10:52:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.StockExchangeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

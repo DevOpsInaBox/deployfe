@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[***Mobile,Tablet Text btn did not appear in the page]]>
+    </line>
+    <line>
+      <![CDATA[***Next Btn pop up did not appear in the page]]>
+    </line>
+    <line>
+      <![CDATA[Rating is :4.5]]>
+    </line>
+    <line>
+      <![CDATA[Third Lowest Price is :26,900]]>
+    </line>
+    <line>
+      <![CDATA[***Mobile,Tablet Text btn did not appear in the page]]>
+    </line>
+    <line>
+      <![CDATA[***Next Btn pop up did not appear in the page]]>
+    </line>
+    <line>
+      <![CDATA[Rating is :3.4]]>
+    </line>
+    <line>
+      <![CDATA[Third Lowest Price is :16,400]]>
+    </line>
+    <line>
+      <![CDATA[***Mobile,Tablet Text btn did not appear in the page]]>
+    </line>
+    <line>
+      <![CDATA[***Next Btn pop up did not appear in the page]]>
+    </line>
+    <line>
+      <![CDATA[Rating is :4.5]]>
+    </line>
+    <line>
+      <![CDATA[Third Lowest Price is :31,599]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="978800" started-at="2016-05-10T17:15:35Z" finished-at="2016-05-10T17:31:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="978800" started-at="2016-05-10T17:15:35Z" finished-at="2016-05-10T17:31:54Z">
+      <class name="test.ElectronicsComparisonTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.ElectronicsComparisonTest@598067a5]" name="beforeTest" is-config="true" duration-ms="114524" started-at="2016-05-10T22:45:35Z" finished-at="2016-05-10T22:47:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Galaxy S5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[com.MySmartPrice.MySmartPrice]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Georgia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="selectSuitableDevices(java.lang.String)[pri:0, instance:test.ElectronicsComparisonTest@598067a5]" name="selectSuitableDevices" duration-ms="107486" started-at="2016-05-10T22:47:30Z" data-provider="SelectDevice" finished-at="2016-05-10T22:49:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple iPad Air]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[***Mobile,Tablet Text btn did not appear in the page]]>
+            </line>
+            <line>
+              <![CDATA[***Next Btn pop up did not appear in the page]]>
+            </line>
+            <line>
+              <![CDATA[Rating is :4.5]]>
+            </line>
+            <line>
+              <![CDATA[Third Lowest Price is :26,900]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectSuitableDevices -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.ElectronicsComparisonTest@598067a5]" name="afterTest" is-config="true" duration-ms="64962" started-at="2016-05-10T22:49:17Z" finished-at="2016-05-10T22:50:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.ElectronicsComparisonTest@598067a5]" name="beforeTest" is-config="true" duration-ms="110022" started-at="2016-05-10T22:50:22Z" finished-at="2016-05-10T22:52:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Galaxy S5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[com.MySmartPrice.MySmartPrice]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Georgia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="selectSuitableDevices(java.lang.String)[pri:0, instance:test.ElectronicsComparisonTest@598067a5]" name="selectSuitableDevices" duration-ms="108614" started-at="2016-05-10T22:52:12Z" data-provider="SelectDevice" finished-at="2016-05-10T22:54:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung Galaxy Tab E]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[***Mobile,Tablet Text btn did not appear in the page]]>
+            </line>
+            <line>
+              <![CDATA[***Next Btn pop up did not appear in the page]]>
+            </line>
+            <line>
+              <![CDATA[Rating is :3.4]]>
+            </line>
+            <line>
+              <![CDATA[Third Lowest Price is :16,400]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectSuitableDevices -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.ElectronicsComparisonTest@598067a5]" name="afterTest" is-config="true" duration-ms="60005" started-at="2016-05-10T22:54:01Z" finished-at="2016-05-10T22:55:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.ElectronicsComparisonTest@598067a5]" name="beforeTest" is-config="true" duration-ms="235360" started-at="2016-05-10T22:55:01Z" finished-at="2016-05-10T22:58:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Galaxy S5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[com.MySmartPrice.MySmartPrice]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Georgia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="selectSuitableDevices(java.lang.String)[pri:0, instance:test.ElectronicsComparisonTest@598067a5]" name="selectSuitableDevices" duration-ms="123304" started-at="2016-05-10T22:58:56Z" data-provider="SelectDevice" finished-at="2016-05-10T23:00:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Apple iPad Air 2 64 Gb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[***Mobile,Tablet Text btn did not appear in the page]]>
+            </line>
+            <line>
+              <![CDATA[***Next Btn pop up did not appear in the page]]>
+            </line>
+            <line>
+              <![CDATA[Rating is :4.5]]>
+            </line>
+            <line>
+              <![CDATA[Third Lowest Price is :31,599]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectSuitableDevices -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.ElectronicsComparisonTest@598067a5]" name="afterTest" is-config="true" duration-ms="54468" started-at="2016-05-10T23:00:59Z" finished-at="2016-05-10T23:01:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.ElectronicsComparisonTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

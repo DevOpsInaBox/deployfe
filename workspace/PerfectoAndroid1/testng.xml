@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+		<parameter name="OSVersion" value="5.0" />
+		<parameter name="appName" value="com.MySmartPrice.MySmartPrice" />
+		<parameter name="deviceModel" value="Galaxy S5" />
+		<parameter name="mobileOS" value="Android" />
+		<parameter name="persona" value="Georgia"/>
+		
+		  <test name="Test">
+		    <classes>
+		      <class name="test.ElectronicsComparisonTest"/>
+		    </classes>
+		  </test>
+</suite>

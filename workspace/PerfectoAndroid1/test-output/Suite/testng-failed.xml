@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="persona" value="Georgia"/>
+  <parameter name="appName" value="com.MySmartPrice.MySmartPrice"/>
+  <parameter name="OSVersion" value="5.0"/>
+  <parameter name="deviceModel" value="Galaxy S5"/>
+  <parameter name="mobileOS" value="Android"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="test.ElectronicsComparisonTest">
+        <methods>
+          <include name="selectSuitableDevices" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- test.ElectronicsComparisonTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
